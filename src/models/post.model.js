@@ -5,3 +5,5 @@ const postSchema = mongoose.Schema({
     caption:String
 
 })
+
+module.exports = mongoose.model('post',postSchema)
